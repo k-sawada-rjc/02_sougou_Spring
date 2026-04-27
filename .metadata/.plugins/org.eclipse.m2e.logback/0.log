@@ -1,0 +1,938 @@
+2026-04-23 08:48:35,811 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2026-04-23 11:24:37,420 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-04-23 11:27:44,634 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:02_総合問題:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\02_総合問題\pom.xml.
+2026-04-23 11:27:44,859 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5.pom
+2026-04-23 11:27:44,870 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5.pom
+2026-04-23 11:27:45,030 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5.pom
+2026-04-23 11:27:45,033 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5.pom
+2026-04-23 11:27:45,089 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4.pom
+2026-04-23 11:27:45,094 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4.pom
+2026-04-23 11:27:45,122 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational-parent/4.0.4/spring-data-relational-parent-4.0.4.pom
+2026-04-23 11:27:45,127 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational-parent/4.0.4/spring-data-relational-parent-4.0.4.pom
+2026-04-23 11:27:45,161 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4.pom
+2026-04-23 11:27:45,166 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4.pom
+2026-04-23 11:27:45,365 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5.pom
+2026-04-23 11:27:45,368 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5.pom
+2026-04-23 11:27:45,398 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5.pom
+2026-04-23 11:27:45,401 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5.pom
+2026-04-23 11:27:45,430 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,434 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,462 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-lib/3.1.3.RELEASE/thymeleaf-lib-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,463 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-lib/3.1.3.RELEASE/thymeleaf-lib-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,499 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-parent/3.1.3.RELEASE/thymeleaf-parent-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,513 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-parent/3.1.3.RELEASE/thymeleaf-parent-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,546 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.0/spring-framework-bom-6.2.0.pom
+2026-04-23 11:27:45,552 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/6.2.0/spring-framework-bom-6.2.0.pom
+2026-04-23 11:27:45,581 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.2/jackson-bom-2.18.2.pom
+2026-04-23 11:27:45,586 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.18.2/jackson-bom-2.18.2.pom
+2026-04-23 11:27:45,637 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18.1/jackson-parent-2.18.1.pom
+2026-04-23 11:27:45,642 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.18.1/jackson-parent-2.18.1.pom
+2026-04-23 11:27:45,667 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/61/oss-parent-61.pom
+2026-04-23 11:27:45,674 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/61/oss-parent-61.pom
+2026-04-23 11:27:45,705 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.0/reactor-bom-2024.0.0.pom
+2026-04-23 11:27:45,708 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2024.0.0/reactor-bom-2024.0.0.pom
+2026-04-23 11:27:45,731 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.24.2/log4j-bom-2.24.2.pom
+2026-04-23 11:27:45,731 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.24.2/log4j-bom-2.24.2.pom
+2026-04-23 11:27:45,779 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/11.3.0/logging-parent-11.3.0.pom
+2026-04-23 11:27:45,794 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/11.3.0/logging-parent-11.3.0.pom
+2026-04-23 11:27:45,835 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom
+2026-04-23 11:27:45,839 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/33/apache-33.pom
+2026-04-23 11:27:45,864 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.3/junit-bom-5.11.3.pom
+2026-04-23 11:27:45,867 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.3/junit-bom-5.11.3.pom
+2026-04-23 11:27:45,923 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,928 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE.pom
+2026-04-23 11:27:45,958 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.pom
+2026-04-23 11:27:45,962 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.pom
+2026-04-23 11:27:45,990 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.pom
+2026-04-23 11:27:45,994 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.pom
+2026-04-23 11:27:46,104 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10.pom
+2026-04-23 11:27:46,145 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10.pom
+2026-04-23 11:27:46,173 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.pom
+2026-04-23 11:27:46,178 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.pom
+2026-04-23 11:27:46,207 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,211 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,399 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,402 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,431 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,434 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,459 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,463 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5.pom
+2026-04-23 11:27:46,490 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,493 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,522 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,527 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,559 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,564 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5.pom
+2026-04-23 11:27:46,594 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5.pom
+2026-04-23 11:27:46,598 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5.pom
+2026-04-23 11:27:46,728 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5.jar
+2026-04-23 11:27:46,731 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5.jar
+2026-04-23 11:27:46,760 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5.jar
+2026-04-23 11:27:46,770 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5.jar
+2026-04-23 11:27:46,780 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5.jar
+2026-04-23 11:27:46,796 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5.jar
+2026-04-23 11:27:46,796 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.jar
+2026-04-23 11:27:46,796 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5.jar
+2026-04-23 11:27:46,796 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5.jar
+2026-04-23 11:27:46,796 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4.jar
+2026-04-23 11:27:46,829 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4.jar
+2026-04-23 11:27:46,868 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE.jar
+2026-04-23 11:27:46,941 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar
+2026-04-23 11:27:46,947 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE.jar
+2026-04-23 11:27:47,058 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar
+2026-04-23 11:27:47,158 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar
+2026-04-23 11:27:47,209 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar
+2026-04-23 11:27:47,224 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10.jar
+2026-04-23 11:27:47,325 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.jar
+2026-04-23 11:27:47,575 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4.jar
+2026-04-23 11:27:47,658 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.jar
+2026-04-23 11:27:47,684 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,689 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,693 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4.jar
+2026-04-23 11:27:47,700 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,702 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,771 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,774 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,774 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,775 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,777 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,782 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5.jar
+2026-04-23 11:27:47,861 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5.jar
+2026-04-23 11:27:47,865 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5.jar
+2026-04-23 11:27:47,877 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,876 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,888 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,888 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5.jar
+2026-04-23 11:27:47,973 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE.jar
+2026-04-23 11:27:48,068 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10.jar
+2026-04-23 11:27:48,203 [Worker-10: 入門コンテンツのインポート] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Maven プロジェクトを読み取れませんでした
+org.eclipse.core.runtime.CoreException: Maven プロジェクトを読み取れませんでした
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:256)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:166)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:139)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:130)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+ for project  at C:\Users\kazuki_sawada\work\training2\02_総合問題
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 30 common frames omitted
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:642)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:262)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:248)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 32 common frames omitted
+2026-04-23 11:27:48,440 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:27:48,477 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:27:48,478 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/test/resources
+2026-04-23 11:27:48,967 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2026-04-23 11:27:48,969 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 11:27:49,048 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:02_総合問題:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\02_総合問題\pom.xml.
+2026-04-23 11:27:49,267 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5-sources.jar
+2026-04-23 11:27:49,271 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/4.0.5/spring-boot-starter-data-jdbc-4.0.5-sources.jar
+2026-04-23 11:27:49,274 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:4.0.5
+2026-04-23 11:27:49,359 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5-sources.jar
+2026-04-23 11:27:49,364 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc/4.0.5/spring-boot-data-jdbc-4.0.5-sources.jar
+2026-04-23 11:27:49,368 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-data-jdbc:4.0.5
+2026-04-23 11:27:49,376 [Worker-10: 入門コンテンツのインポート] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Maven プロジェクトを読み取れませんでした
+org.eclipse.core.runtime.CoreException: Maven プロジェクトを読み取れませんでした
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:388)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$3(ProjectConfigurationManager.java:340)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1053)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:339)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:326)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:308)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:296)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:139)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+ for project  at C:\Users\kazuki_sawada\work\training2\02_総合問題
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 33 common frames omitted
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:642)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:262)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:248)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 35 common frames omitted
+2026-04-23 11:27:49,449 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4-sources.jar
+2026-04-23 11:27:49,498 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:27:49,499 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:27:49,499 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/test/resources
+2026-04-23 11:27:49,521 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/4.0.4/spring-data-jdbc-4.0.4-sources.jar
+2026-04-23 11:27:49,524 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:4.0.4
+2026-04-23 11:27:49,571 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4-sources.jar
+2026-04-23 11:27:49,672 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/4.0.4/spring-data-relational-4.0.4-sources.jar
+2026-04-23 11:27:49,674 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:4.0.4
+2026-04-23 11:27:49,745 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5-sources.jar
+2026-04-23 11:27:49,749 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.5/spring-boot-starter-thymeleaf-4.0.5-sources.jar
+2026-04-23 11:27:49,752 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-thymeleaf:4.0.5
+2026-04-23 11:27:49,796 [Worker-10: 入門コンテンツのインポート] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-23 11:27:49,799 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5-sources.jar
+2026-04-23 11:27:49,806 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.5/spring-boot-thymeleaf-4.0.5-sources.jar
+2026-04-23 11:27:49,809 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-thymeleaf:4.0.5
+2026-04-23 11:27:49,863 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE-sources.jar
+2026-04-23 11:27:49,952 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/thymeleaf-spring6-3.1.3.RELEASE-sources.jar
+2026-04-23 11:27:49,954 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf-spring6:3.1.3.RELEASE
+2026-04-23 11:27:49,996 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE-sources.jar
+2026-04-23 11:27:50,191 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:27:50,206 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 11:27:50,211 [Worker-6: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:27:50,250 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.1.3.RELEASE/thymeleaf-3.1.3.RELEASE-sources.jar
+2026-04-23 11:27:50,252 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf:3.1.3.RELEASE
+2026-04-23 11:27:50,312 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE-sources.jar
+2026-04-23 11:27:50,380 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE-sources.jar
+2026-04-23 11:27:50,384 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.attoparser:attoparser:2.0.7.RELEASE
+2026-04-23 11:27:50,444 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar
+2026-04-23 11:27:50,490 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE-sources.jar
+2026-04-23 11:27:50,493 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.unbescape:unbescape:1.1.6.RELEASE
+2026-04-23 11:27:50,570 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10-sources.jar
+2026-04-23 11:27:50,804 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.10/postgresql-42.7.10-sources.jar
+2026-04-23 11:27:50,807 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.7.10
+2026-04-23 11:27:50,974 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0-sources.jar
+2026-04-23 11:27:51,042 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0-sources.jar
+2026-04-23 11:27:51,045 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.checkerframework:checker-qual:3.52.0
+2026-04-23 11:27:51,094 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,099 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc-test/4.0.5/spring-boot-starter-data-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,102 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc-test:4.0.5
+2026-04-23 11:27:51,180 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,185 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.5/spring-boot-starter-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,186 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-jdbc-test:4.0.5
+2026-04-23 11:27:51,244 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,248 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.5/spring-boot-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,250 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-jdbc-test:4.0.5
+2026-04-23 11:27:51,293 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,299 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jdbc-test/4.0.5/spring-boot-data-jdbc-test-4.0.5-sources.jar
+2026-04-23 11:27:51,299 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-data-jdbc-test:4.0.5
+2026-04-23 11:27:51,394 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,398 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.5/spring-boot-starter-data-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,400 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jpa-test:4.0.5
+2026-04-23 11:27:51,459 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,464 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.5/spring-boot-data-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,467 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-data-jpa-test:4.0.5
+2026-04-23 11:27:51,566 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,572 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.5/spring-boot-jpa-test-4.0.5-sources.jar
+2026-04-23 11:27:51,575 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-jpa-test:4.0.5
+2026-04-23 11:27:51,642 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5-sources.jar
+2026-04-23 11:27:51,647 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf-test/4.0.5/spring-boot-starter-thymeleaf-test-4.0.5-sources.jar
+2026-04-23 11:27:51,649 [Worker-14: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-thymeleaf-test:4.0.5
+2026-04-23 11:31:21,573 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:31:21,581 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 11:31:21,584 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:31:27,868 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:31:27,875 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 11:31:27,877 [Worker-15: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:31:31,201 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:31:31,209 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 11:31:31,211 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:32:11,750 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:32:11,757 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:32:11,761 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:32:29,434 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:32:29,440 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2026-04-23 11:32:29,444 [Worker-7: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:32:38,080 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:32:38,088 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 11:32:38,099 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 11:34:18,570 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 11:34:18,959 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:02_総合問題:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\02_総合問題\pom.xml.
+2026-04-23 11:34:19,360 [Worker-18: Maven プロジェクトの更新中] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Maven プロジェクトを読み取れませんでした
+org.eclipse.core.runtime.CoreException: Maven プロジェクトを読み取れませんでした
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:388)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$3(ProjectConfigurationManager.java:340)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1053)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:339)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:80)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+ for project  at C:\Users\kazuki_sawada\work\training2\02_総合問題
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 25 common frames omitted
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\02_総合問題: C:\Users\kazuki_sawada\work\training2\02_総合問題 (アクセスが拒否されました。) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:642)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:262)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:248)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 27 common frames omitted
+2026-04-23 11:34:19,472 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:34:19,473 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/main/resources
+2026-04-23 11:34:19,473 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /02_総合問題/src/test/resources
+2026-04-23 11:34:19,733 [Worker-18: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-23 11:34:19,998 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 11:34:20,008 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 11:34:20,023 [Worker-14: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:32:29,726 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:32:29,753 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:32:29,762 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:33:13,687 [Worker-33: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:33:13,713 [Worker-33: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 12:33:13,719 [Worker-33: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:34:08,013 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:34:08,045 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:34:08,051 [Worker-34: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:34:37,924 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:34:37,947 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:34:37,959 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:35:45,500 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:35:45,520 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:35:45,528 [Worker-30: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:36:55,396 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:36:55,404 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:36:55,411 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:39:32,326 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:39:32,334 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:39:32,338 [Worker-29: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:42:53,730 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:42:53,738 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:42:53,742 [Worker-32: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 12:55:10,545 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 12:55:10,550 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 12:55:10,554 [Worker-40: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 14:11:27,541 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:11:27,562 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 14:11:27,572 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\02_総合問題\src\test\resources
+2026-04-23 14:13:05,687 [Worker-48: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:02_総合問題:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:13:06,067 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20.pom
+2026-04-23 14:13:06,075 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20.pom
+2026-04-23 14:13:06,111 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20.pom
+2026-04-23 14:13:06,115 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20.pom
+2026-04-23 14:13:06,149 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0.pom
+2026-04-23 14:13:06,156 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0.pom
+2026-04-23 14:13:06,203 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.pom
+2026-04-23 14:13:06,209 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.pom
+2026-04-23 14:13:06,249 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.pom
+2026-04-23 14:13:06,255 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.pom
+2026-04-23 14:13:06,297 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2026-04-23 14:13:06,301 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.pom
+2026-04-23 14:13:06,519 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20.jar
+2026-04-23 14:13:08,226 [Worker-48: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20.jar
+2026-04-23 14:13:08,707 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0.jar
+2026-04-23 14:13:08,791 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar
+2026-04-23 14:13:08,791 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20.jar
+2026-04-23 14:13:08,796 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20.jar
+2026-04-23 14:13:08,842 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar
+2026-04-23 14:13:08,847 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2.jar
+2026-04-23 14:13:08,918 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2026-04-23 14:13:09,068 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar
+2026-04-23 14:13:09,356 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar
+2026-04-23 14:13:12,045 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0.jar
+2026-04-23 14:13:12,059 [Worker-48: ビルド] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Maven プロジェクトを読み取れませんでした
+org.eclipse.core.runtime.CoreException: Maven プロジェクトを読み取れませんでした
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:371)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readProject(MavenImpl.java:361)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.lambda$4(AbstractMavenArchiverConfigurator.java:576)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.loadParentHierarchy(AbstractMavenArchiverConfigurator.java:568)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:365)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:228)
+	at org.eclipse.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:220)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:885)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:324)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\sougou: C:\Users\kazuki_sawada\work\training2\sougou (アクセスが拒否されました。) @ 
+ for project  at C:\Users\kazuki_sawada\work\training2\sougou
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:180)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:123)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:369)
+	... 35 common frames omitted
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM C:\Users\kazuki_sawada\work\training2\sougou: C:\Users\kazuki_sawada\work\training2\sougou (アクセスが拒否されました。) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:176)
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:642)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:262)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:248)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:176)
+	... 37 common frames omitted
+2026-04-23 14:13:12,306 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:13:12,317 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 14:13:12,331 [Worker-48: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:13:13,466 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:13:13,468 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 14:13:13,496 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:13:13,498 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20-sources.jar
+2026-04-23 14:13:14,598 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-jasper/11.0.20/tomcat-embed-jasper-11.0.20-sources.jar
+2026-04-23 14:13:14,600 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-jasper:11.0.20
+2026-04-23 14:13:14,650 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20-sources.jar
+2026-04-23 14:13:14,781 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/11.0.20/tomcat-annotations-api-11.0.20-sources.jar
+2026-04-23 14:13:14,784 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-annotations-api:11.0.20
+2026-04-23 14:13:14,893 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0-sources.jar
+2026-04-23 14:13:18,325 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jdt/ecj/3.45.0/ecj-3.45.0-sources.jar
+2026-04-23 14:13:18,328 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jdt:ecj:3.45.0
+2026-04-23 14:13:18,421 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2026-04-23 14:13:18,725 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.2/jakarta.servlet.jsp.jstl-api-3.0.2-sources.jar
+2026-04-23 14:13:18,731 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2
+2026-04-23 14:13:18,791 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0-sources.jar
+2026-04-23 14:13:20,257 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0-sources.jar
+2026-04-23 14:13:20,259 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.servlet:jakarta.servlet-api:6.1.0
+2026-04-23 14:13:20,332 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2026-04-23 14:13:20,469 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0-sources.jar
+2026-04-23 14:13:20,471 [Worker-65: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for jakarta.el:jakarta.el-api:5.0.0
+2026-04-23 14:13:34,668 [Worker-62: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:13:35,095 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:13:35,108 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 14:13:35,114 [Worker-62: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:16:47,890 [Worker-68: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:16:48,270 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:16:48,272 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:16:48,274 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:17:32,412 [Worker-65: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:17:32,775 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:17:32,776 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:17:32,778 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:19:19,322 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:19:19,334 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 15 resources from src\main\resources to target\classes
+2026-04-23 14:19:19,356 [Worker-60: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:19:25,847 [Worker-69: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:19:25,854 [Worker-69: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:19:25,858 [Worker-69: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:20:19,341 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:20:19,349 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:20:19,353 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:20:51,488 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:20:51,496 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:20:51,500 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:21:01,515 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:21:01,520 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:21:01,523 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:21:29,738 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:21:29,742 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:21:29,745 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:22:22,673 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:22:22,679 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:22:22,683 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:23:09,883 [Worker-71: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:23:09,890 [Worker-71: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:23:09,895 [Worker-71: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:24:10,986 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:24:10,994 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:24:10,997 [Worker-65: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:24:12,096 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:24:12,103 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:24:12,106 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:24:17,538 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:24:17,548 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:24:17,551 [Worker-70: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:26:03,183 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:26:03,192 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:26:03,195 [Worker-67: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:27:57,430 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:27:57,438 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:27:57,442 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:31:31,547 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:31:31,552 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-23 14:31:31,554 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:34:59,279 [Worker-68: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:34:59,289 [Worker-68: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:34:59,297 [Worker-68: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:35:00,476 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:35:00,478 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:35:00,481 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:36:55,118 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:36:55,126 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:36:55,249 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:37:21,998 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:37:22,004 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:37:22,009 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:38:10,190 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:38:10,197 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:38:10,202 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:39:09,814 [Worker-79: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:39:10,482 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:39:10,484 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 14:39:10,489 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:40:29,635 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:40:29,651 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:40:29,656 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:41:30,236 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:41:30,241 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:41:30,245 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:43:50,791 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:43:50,795 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:43:50,799 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:01,628 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:01,634 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:01,639 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:05,018 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:05,024 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:05,029 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:07,642 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:07,648 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:07,652 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:11,022 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:11,027 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:11,031 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:31,937 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:31,943 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:31,947 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:44:56,224 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:44:56,229 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:44:56,233 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:45:15,977 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:45:15,980 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:45:15,984 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:45:31,204 [Worker-78: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:45:31,209 [Worker-78: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:45:31,212 [Worker-78: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:46:39,452 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:46:39,457 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:46:39,462 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:47:05,165 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:47:05,169 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:47:05,175 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:14,403 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:14,410 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:14,428 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:25,634 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:25,639 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:25,643 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:35,718 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:35,724 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:35,729 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:37,973 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:37,979 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:37,983 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:52,158 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:52,162 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:52,166 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:48:59,827 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:48:59,831 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:48:59,837 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:49:07,017 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:49:07,022 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:49:07,026 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:49:17,485 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:49:17,489 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:49:17,492 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:49:19,900 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:49:19,905 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:49:19,908 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:49:20,946 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:49:20,950 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:49:20,953 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:49:24,470 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:49:24,474 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:49:24,476 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:52:02,046 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:52:02,053 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:52:02,057 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:52:09,828 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:52:09,834 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:52:09,841 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:52:14,140 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:52:14,147 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:52:14,151 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:52:48,788 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:52:48,795 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:52:48,798 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:52:50,903 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:52:50,911 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:52:50,914 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:14,146 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:14,150 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:14,153 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:18,085 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:18,090 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:18,094 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:20,660 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:20,665 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:20,669 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:34,141 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:34,145 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:34,148 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:47,455 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:47,459 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:47,462 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:53:53,050 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:53:53,055 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:53:53,060 [Worker-77: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:54:17,795 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:54:17,799 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:54:17,803 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:54:41,486 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:54:41,637 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:54:41,648 [Worker-75: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:54:50,414 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:54:50,420 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:54:50,424 [Worker-72: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:54:54,096 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:54:54,100 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:54:54,105 [Worker-68: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:54:58,862 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:54:58,867 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:54:58,871 [Worker-79: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:55:02,195 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:55:02,196 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:55:02,211 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:57:11,106 [Worker-81: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:57:11,110 [Worker-81: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:57:11,113 [Worker-81: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:57:37,669 [Worker-83: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:57:37,672 [Worker-83: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:57:37,675 [Worker-83: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 14:59:34,335 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 14:59:34,766 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 14:59:35,455 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-23 14:59:35,456 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 14:59:35,456 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 14:59:35,457 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-23 14:59:35,457 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-23 14:59:35,688 [Worker-82: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-23 14:59:36,123 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 14:59:36,139 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 14:59:36,153 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:00:31,064 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:00:31,071 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:00:31,239 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:00:51,544 [Worker-84: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:00:51,549 [Worker-84: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:00:51,553 [Worker-84: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:07:32,850 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:07:32,852 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:07:32,856 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:08:55,658 [Worker-88: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:08:55,660 [Worker-88: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:08:55,665 [Worker-88: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:08:59,862 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:08:59,865 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:08:59,870 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:09:25,813 [Worker-85: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:09:25,816 [Worker-85: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:09:25,820 [Worker-85: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:24:35,124 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:24:35,133 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:24:35,137 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:24:43,668 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 15:24:44,216 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 15:24:44,767 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-23 15:24:44,768 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:24:44,768 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:24:44,768 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-23 15:24:44,769 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-23 15:24:45,084 [Worker-84: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2026-04-23 15:24:45,530 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:24:45,553 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:24:45,581 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:25:57,789 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 15:25:58,007 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 15:25:58,330 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-23 15:25:58,331 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:25:58,331 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:25:58,331 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-23 15:25:58,331 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-23 15:25:58,630 [Worker-76: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-23 15:25:58,874 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:25:58,886 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:25:58,901 [Worker-82: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:40:15,711 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:40:15,713 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:40:15,750 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:40:21,648 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-23 15:40:22,166 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-23 15:40:22,709 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-23 15:40:22,710 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:40:22,710 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-23 15:40:22,710 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-23 15:40:22,710 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-23 15:40:22,889 [Worker-74: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2026-04-23 15:40:23,195 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:40:23,207 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:40:23,221 [Worker-76: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:41:44,702 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:41:44,708 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-23 15:41:44,710 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-23 15:45:53,593 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-23 15:45:53,600 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2026-04-23 15:45:53,604 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 09:20:01,968 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 09:20:01,970 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 09:20:01,977 [Worker-86: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 09:41:21,705 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 09:41:21,707 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 09:41:21,710 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:04:33,039 [Worker-97: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:04:33,042 [Worker-97: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:04:33,328 [Worker-97: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:04:34,368 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:04:34,370 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:04:34,373 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:05:13,141 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:05:13,142 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:05:13,148 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:05:14,196 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:05:14,198 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:05:14,201 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:10:31,833 [Worker-98: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:10:31,845 [Worker-98: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:10:31,851 [Worker-98: ワークスペースをビルド中] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:10:32,992 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:10:32,994 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:10:32,996 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:18:47,481 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:18:47,483 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:18:47,485 [Worker-91: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:18:59,323 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:18:59,324 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:18:59,329 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:19:07,113 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:19:07,115 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:19:07,128 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:19:11,660 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-24 12:19:12,309 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 12:19:12,943 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-24 12:19:12,943 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 12:19:12,944 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 12:19:12,944 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-24 12:19:12,944 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-24 12:19:13,130 [Worker-97: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2026-04-24 12:19:13,634 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:19:13,668 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:19:13,696 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:30:00,881 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:30:00,886 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:30:00,894 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:31:16,716 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:31:16,723 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:31:16,732 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:33:29,883 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:33:29,884 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:33:29,889 [Worker-99: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:37:20,884 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 12:37:20,885 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:37:20,889 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:37:48,655 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:37:48,662 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:37:48,666 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:39:57,648 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:39:57,655 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:39:57,660 [Worker-96: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:56:25,259 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:56:25,272 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:56:25,281 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 12:58:15,157 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 12:58:15,164 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 12:58:15,172 [Worker-98: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 14:44:21,484 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 14:44:21,494 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 14:44:21,505 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:01:45,755 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:01:45,764 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:01:45,772 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:01:54,922 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:01:54,929 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:01:55,074 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:01:58,859 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:01:58,864 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:01:58,869 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:02:10,962 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:02:10,967 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:02:10,971 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:09:13,348 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:09:13,353 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:09:13,359 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:11:20,968 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:11:20,972 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:11:20,976 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:23:06,655 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:23:06,661 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:23:06,668 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:33:28,622 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:33:28,630 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:33:28,643 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:34:02,738 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:34:02,739 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:34:02,745 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:34:55,098 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:34:55,104 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:34:55,111 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:42:40,628 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:42:40,629 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:42:40,634 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:44:35,678 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:44:35,679 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:44:35,684 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:45:17,168 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:45:17,169 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:45:17,174 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:45:38,492 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:45:38,494 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:45:38,497 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:48:06,111 [Worker-89: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 15:48:06,963 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:48:06,965 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:48:06,970 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:52:22,317 [Worker-103: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 15:52:22,923 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:52:22,924 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 15:52:22,930 [Worker-103: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:52:29,238 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:52:29,257 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:52:29,271 [Worker-95: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 15:52:32,448 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-24 15:52:32,630 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 15:52:33,133 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-24 15:52:33,135 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 15:52:33,135 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 15:52:33,135 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-24 15:52:33,135 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-24 15:52:33,310 [Worker-95: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-24 15:52:33,595 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 15:52:33,609 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 15:52:33,624 [Worker-89: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:08:30,417 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 16:08:30,421 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:08:30,429 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:16:25,589 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:16:25,597 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:16:25,604 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:27:35,353 [Worker-93: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 16:27:36,010 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 16:27:36,012 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 16:27:36,018 [Worker-93: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:27:39,629 [Worker-94: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:27:39,645 [Worker-94: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:27:39,649 [Worker-94: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:29:08,215 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:29:08,221 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:29:08,225 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:29:21,758 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:29:21,767 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:29:21,780 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:29:33,145 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-04-24 16:29:33,711 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:sougou:0.0.1-SNAPSHOT @ C:\Users\kazuki_sawada\work\training2\sougou\pom.xml.
+2026-04-24 16:29:34,095 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/main/java
+2026-04-24 16:29:34,095 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 16:29:34,095 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/main/resources
+2026-04-24 16:29:34,096 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sougou/src/test/java
+2026-04-24 16:29:34,096 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sougou/src/test/resources
+2026-04-24 16:29:34,432 [Worker-89: Maven プロジェクトの更新中] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2026-04-24 16:29:34,689 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:29:34,705 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:29:34,722 [Worker-104: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:39:38,262 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:39:38,269 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:39:38,275 [Worker-100: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:41:52,860 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:41:52,868 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:41:52,873 [Worker-74: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:43:04,050 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:43:04,056 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 13 resources from src\main\resources to target\classes
+2026-04-24 16:43:04,060 [Worker-102: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources
+2026-04-24 16:46:00,022 [Worker-101: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-04-24 16:46:00,026 [Worker-101: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-04-24 16:46:00,032 [Worker-101: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\kazuki_sawada\work\training2\sougou\src\test\resources

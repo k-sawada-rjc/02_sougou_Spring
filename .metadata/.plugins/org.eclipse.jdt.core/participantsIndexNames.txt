@@ -1,0 +1,11 @@
+INDEX VERSION 1.134
+C:\Users\kazuki_sawada\work\training2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1606353817.index
+\02_総合問題\src\main\resources
+C:\Users\kazuki_sawada\work\training2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2439865186.index
+\sougou\src\main\resources
+C:\Users\kazuki_sawada\work\training2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\685898121.index
+\sougou\src\main\resources
+C:\Users\kazuki_sawada\work\training2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\287660487.index
+\sougou\src\main\resources
+C:\Users\kazuki_sawada\work\training2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3343939090.index
+\02_総合問題\src\main\resources

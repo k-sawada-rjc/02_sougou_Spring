@@ -1,0 +1,17 @@
+# MYSQL
+spring.datasource.driver-class-name=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.session.jdbc.initialize-schema:
+
+spring.profiles.active=
+
+spring.messages.basename=
+spring.messages.fallback-to-system-locale=
+
+spring.mail.host=
+spring.mail.port=
+spring.mail.username=
+spring.mail.password=
+spring.mail.properties.mail.smtp.timeout=

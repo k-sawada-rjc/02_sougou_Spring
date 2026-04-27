@@ -1,0 +1,52 @@
+package com.example.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.stereotype.Service;
+
+import com.example.bean.MemberBean;
+import com.example.util.SqlUtil;
+
+/**
+ * @author kazuki_sawada
+ * Serviceクラス
+ */
+@Service
+public class MemberService {
+
+	public MemberBean getAll() {
+
+		MemberBean bean;
+
+		String sql="SELECT"
+				+ "	tm.member_id"
+				+ "	, tm.member_name"
+				+ "	, tm.age"
+				+ "	, tm.sex_flg"
+				+ "	, tm.address"
+				+ "	, tm.telephone"
+				+ "	, tm.mail"
+				+ "	, mp.position_name"
+				+ "	, mp2.place_name"
+				+ "FROM"
+				+ "	tbl_member tm"
+				+ "LEFT JOIN mst_position mp ON"
+				+ "	tm.position_id = mp.position_id"
+				+ "	AND mp.delete_flg = 0"
+				+ "LEFT JOIN mst_place mp2 ON"
+				+ "	tm.place_id = mp2.place_id"
+				+ "	AND mp2.delete_flg = 0"
+				+ "WHERE"
+				+ "	tm.delete_flg = 0"
+				+ "ORDER BY"
+				+ "	tm.member_id";
+		try {
+			SqlUtil s = SqlUtil.getInstance("docker","docker");
+			ResultSet resultSet=s.executeSelect(sql);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return bean;
+	}
+}

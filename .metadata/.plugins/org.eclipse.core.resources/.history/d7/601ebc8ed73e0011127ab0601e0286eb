@@ -1,0 +1,12 @@
+package com.example;
+
+import org.springframework.stereotype.Service;
+
+/**
+ * @author kazuki_sawada
+ * Serviceクラス
+ */
+@Service
+public class MemberService {
+
+}

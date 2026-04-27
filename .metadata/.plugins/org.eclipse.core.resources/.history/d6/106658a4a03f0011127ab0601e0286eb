@@ -1,0 +1,18 @@
+package com.example.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.bean.MemberBean;
+
+/**
+ * @author kazuki_sawada
+ * Serviceクラス
+ */
+@Service
+public class MemberService {
+
+	public MemberBean getAll() {
+
+		MemberBean bean=
+	}
+}

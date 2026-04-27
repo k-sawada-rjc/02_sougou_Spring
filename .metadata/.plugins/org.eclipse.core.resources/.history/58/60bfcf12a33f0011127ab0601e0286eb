@@ -1,0 +1,39 @@
+package com.example.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.bean.MemberBean;
+import com.example.service.MemberService;
+
+/**
+ * @author kazuki_sawada Controllerクラス
+ */
+@Controller
+public class MemberController {
+
+	@Autowired
+	private MemberService memberService;
+
+
+	@GetMapping("/")
+	public String index() {
+		return "index";
+	}
+
+	@GetMapping("/list")
+	public String list(Model model) {
+
+		MemberBean bean=memberService.getAll();
+		model.addAttribute("member",bean);
+
+		return "html/list";
+	}F
+
+	@GetMapping("/insert")
+	public String insert() {
+		return "html/insert";
+	}
+}

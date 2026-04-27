@@ -1,0 +1,69 @@
+package com.example.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.bean.MemberBean;
+import com.example.util.SqlUtil;
+
+/**
+ * @author kazuki_sawada Serviceクラス
+ */
+@Service
+public class MemberService {
+
+	/**
+	 * 全件取得
+	 *
+	 * @return
+	 */
+	public List<MemberBean> getAll() {
+		List<MemberBean> memberList = new ArrayList<MemberBean>();
+		String sql = "SELECT" + "	tm.member_id" + "	, tm.member_name" + "	, tm.age" + "	, tm.sex_flg"
+				+ "	, tm.address" + "	, tm.telephone" + "	, tm.mail" + " , tm.position_id" + "	, mp.position_name"
+				+ "	, tm.place_id" + "	, mp2.place_name" + "FROM" + "	tbl_member tm" + "LEFT JOIN mst_position mp ON"
+				+ "	tm.position_id = mp.position_id" + "	AND mp.delete_flg = 0" + "LEFT JOIN mst_place mp2 ON"
+				+ "	tm.place_id = mp2.place_id" + "	AND mp2.delete_flg = 0" + "WHERE" + "	tm.delete_flg = 0"
+				+ "ORDER BY" + "	tm.member_id";
+
+		SqlUtil s = null;
+		try {
+			s = SqlUtil.getInstance("docker", "docker");
+			ResultSet resultSet = s.executeSelect(sql);
+			while (resultSet.next()) {
+				MemberBean bean = new MemberBean();
+
+				bean.setMemberId(resultSet.getString("member_id"));
+				bean.setName(resultSet.getString("member_name"));
+				bean.setAge(resultSet.getString("age"));
+				bean.setAddress(resultSet.getString("address"));
+				int sex_flg = Integer.parseInt(resultSet.getString("sex_flg"));
+				String sex;
+				if (sex_flg == 0) {
+					sex = "男";
+				} else {
+					sex = "女";
+				}
+				bean.setSex(sex);
+				bean.setMail(resultSet.getString("mail"));
+				bean.setTel(resultSet.getString("telephone"));
+				bean.setPositionId(resultSet.getString("position_id"));
+				bean.setPositionName(resultSet.getString("position_name"));
+				bean.setPlaceId(resultSet.getString("place_id"));
+				bean.setPlaceName(resultSet.getString("place_name"));
+
+				memberList.add(bean);
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			s.closeAll();
+		}
+		return memberList;
+	}
+}

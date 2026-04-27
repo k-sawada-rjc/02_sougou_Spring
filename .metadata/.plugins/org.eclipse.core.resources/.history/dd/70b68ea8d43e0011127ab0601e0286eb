@@ -1,0 +1,9 @@
+package com;
+
+public class MemberController {
+
+	private String index() {
+
+		return "";
+	}
+}
