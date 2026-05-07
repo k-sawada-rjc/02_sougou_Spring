@@ -9,8 +9,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
+import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
-
 /**
  * Beanクラス
  *
@@ -277,4 +277,8 @@ public class MemberBean {
 		this.regist = regist;
 	}
 
+	@PrePersist
+	public void prePersist() {
+	    this.regist = LocalDateTime.now();
+	}
 }
