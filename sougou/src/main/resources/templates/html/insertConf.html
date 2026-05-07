@@ -49,11 +49,11 @@
 					</tr>
 					<tr>
 						<th>役職</th>
-						<td th:text="${positionMap[member.positionId]}"></td>
+						<td th:text="*{position.positionName}"></td>
 					</tr>
 					<tr>
 						<th>事業所</th>
-						<td th:text="${placeMap[member.placeId]}"></td>
+						<td th:text="*{place.placeName}"></td>
 					</tr>
 				</table>
 				<input type="hidden" th:field="*{memberId}">
@@ -64,11 +64,14 @@
 				<input type="hidden" th:field="*{tel}">
 				<input type="hidden" th:field="*{mail}">
 				<input type="hidden" th:field="*{positionId}">
+				<input type="hidden" th:field="*{position}">
 				<input type="hidden" th:field="*{placeId}">
+				<input type="hidden" th:field="*{place}">
 				<div class="menu">
 					<input type="submit" value="登録">
 					&nbsp;&nbsp;&nbsp;&nbsp;
-					<a th:href="@{/insert}">戻る</a>
+					<input type="button" value="戻る"
+						th:onclick="|location.href='@{/insert}'|">
 				</div>
 			</form>
 		</div>

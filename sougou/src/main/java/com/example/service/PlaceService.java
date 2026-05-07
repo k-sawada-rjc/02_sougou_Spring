@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.bean.Place;
+import com.example.entity.Place;
 import com.example.repository.PlaceRepository;
 
 @Service
@@ -16,5 +16,9 @@ public class PlaceService {
 
 	public List<Place> findAll() {
 		return placeRepository.findAll();
+	}
+
+	public Place findById(String id) {
+		return placeRepository.findById(id).get();
 	}
 }

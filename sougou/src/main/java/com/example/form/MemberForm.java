@@ -3,6 +3,10 @@ package com.example.form;
 import java.time.LocalDateTime;
 
 import org.hibernate.validator.constraints.Length;
+
+import com.example.entity.Place;
+import com.example.entity.Position;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotBlank;
@@ -21,27 +25,30 @@ public class MemberForm {
 	private String name;
 	/** 年齢 */
 	@NotNull
-	@Max(999)
+	@Max(120)
 	private Integer age;
 	/** 住所 */
 	@NotBlank
-	@Length(max = 50)
+	@Length(max = 100)
 	private String address;
 	/** 性別 */
-	@NotNull
-	private Integer sex;
+	private Integer sex = 0;
 	/** mail */
 	@NotNull
 	@Email
-	@Length(max = 20)
+	@Length(max = 254)
 	private String mail;
 	/** 電話番号 */
 	@Pattern(regexp = "^\\d{11}$", message = "電話番号は11桁の数字で入力してください")
 	private String tel;
 	/** 役職id */
 	private String positionId;
+	/** 役職名 */
+	private Position position;
 	/** 事業所id */
 	private String placeId;
+	/** 事業所名 */
+	private Place place;
 	/** 登録日 */
 	private LocalDateTime regist;
 
@@ -190,6 +197,24 @@ public class MemberForm {
 	}
 
 	/**
+	 * 役職を取得します。
+	 *
+	 * @return 役職
+	 */
+	public Position getPosition() {
+		return position;
+	}
+
+	/**
+	 * 役職を設定します。
+	 *
+	 * @param position 役職
+	 */
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+
+	/**
 	 * 事業所idを取得します。
 	 *
 	 * @return 事業所id
@@ -208,10 +233,22 @@ public class MemberForm {
 	}
 
 	/**
-	 * 事業所名を取得します。
+	 * 事業所を取得します。
 	 *
-	 * @return 事業所名
+	 * @return 事業所
 	 */
+	public Place getPlace() {
+		return place;
+	}
+
+	/**
+	 * 事業所を設定します。
+	 *
+	 * @param place 事業所
+	 */
+	public void setPlace(Place place) {
+		this.place = place;
+	}
 
 	/**
 	 * 登録日を取得します。

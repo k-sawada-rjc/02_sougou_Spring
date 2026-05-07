@@ -1,4 +1,4 @@
-package com.example.bean;
+package com.example.entity;
 
 import java.time.LocalDateTime;
 
@@ -9,7 +9,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
-import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
 /**
  * Beanクラス
@@ -19,7 +18,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "tbl_member")
 @SQLRestriction("delete_flg = '0'")
-public class MemberBean {
+public class Member {
 
 	/** ID */
 	@Id
@@ -277,8 +276,4 @@ public class MemberBean {
 		this.regist = regist;
 	}
 
-	@PrePersist
-	public void prePersist() {
-	    this.regist = LocalDateTime.now();
-	}
 }

@@ -17,7 +17,7 @@
 				<h2>新規登録&nbsp;完了画面</h2>
 				<p>以下のデータが登録されました</p>
 			</div>
-			<div th:object="${member}">
+			<div th:object="${completedMember}">
 				<table class="ct">
 					<tr>
 						<th>社員ID</th>
@@ -49,11 +49,11 @@
 					</tr>
 					<tr>
 						<th>役職</th>
-						<td th:text="${positionMap[member.positionId]}"></td>
+						<td th:text="*{position.positionName}"></td>
 					</tr>
 					<tr>
 						<th>事業所</th>
-						<td th:text="${placeMap[member.placeId]}"></td>
+						<td th:text="*{place.placeName}"></td>
 					</tr>
 				</table>
 			</div>

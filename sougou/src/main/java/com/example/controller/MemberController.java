@@ -1,7 +1,6 @@
 package com.example.controller;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,10 +13,10 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.example.bean.MemberBean;
-import com.example.bean.Place;
-import com.example.bean.Position;
 import com.example.dto.MemberDto;
+import com.example.entity.Member;
+import com.example.entity.Place;
+import com.example.entity.Position;
 import com.example.form.MemberForm;
 import com.example.service.MemberService;
 import com.example.service.PlaceService;
@@ -28,7 +27,7 @@ import jakarta.validation.Valid;
 /**
  * @author kazuki_sawada Controllerクラス
  */
-@SessionAttributes({ "member", "positions", "places" ,"positionMap", "placeMap"})
+@SessionAttributes("member")
 @Controller
 public class MemberController {
 
@@ -51,6 +50,16 @@ public class MemberController {
 		return "index";
 	}
 
+	@ModelAttribute("positions")
+	public List<Position> setPositions() {
+	    return positionService.findAll();
+	}
+
+	@ModelAttribute("places")
+	public List<Place> setPlaces() {
+	    return placeService.findAll();
+	}
+
 	/**
 	 * 一覧機能
 	 *
@@ -60,23 +69,10 @@ public class MemberController {
 	@GetMapping("/list")
 	public String list(Model model) {
 
-		List<MemberBean> memberList = memberService.findAll();
+		List<Member> memberList = memberService.findAll();
 		model.addAttribute("members", memberList);
 
 		return "html/list";
-	}
-
-	/**
-	 * 役職、事業所のIDとnameを結びつけたマップを作成し、modelに格納する.
-	 *
-	 * @param model
-	 */
-	private void setDisplayNameMaps(Model model) {
-
-		model.addAttribute("positionMap", positionService.findAll().stream()
-				.collect(Collectors.toMap(Position::getPositionId, Position::getPositionName)));
-		model.addAttribute("placeMap",
-				placeService.findAll().stream().collect(Collectors.toMap(Place::getPlaceId, Place::getPlaceName)));
 	}
 
 	/**
@@ -88,12 +84,8 @@ public class MemberController {
 	public String insert(Model model) {
 		if (!model.containsAttribute("member")) {
 			MemberForm form = new MemberForm();
-			form.setSex(0);
 			model.addAttribute("member", form);
 		}
-
-		model.addAttribute("positions", positionService.findAll());
-		model.addAttribute("places", placeService.findAll());
 
 		return "html/insert";
 	}
@@ -108,11 +100,14 @@ public class MemberController {
 	 */
 	@PostMapping("/insertConf")
 	public String insertConf(@Valid @ModelAttribute("member") MemberForm form, BindingResult result, Model model) {
+
 		if (result.hasErrors()) {
 			return "html/insert";
 		}
 
-		setDisplayNameMaps(model);
+		form.setPosition(positionService.findById(form.getPositionId()));
+		form.setPlace(placeService.findById(form.getPlaceId()));
+
 		return "html/insertConf";
 	}
 
@@ -131,7 +126,7 @@ public class MemberController {
 		MemberDto dto = MemberDto.convertFormToDto(form);
 		memberService.insert(dto);
 
-		// Sessionに保存されたmember(入力値)を消去
+		// Sessionに保存されたデータを消去
 		sessionStatus.setComplete();
 
 		redirAttrs.addFlashAttribute("completedMember", form);
