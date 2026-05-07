@@ -1,7 +1,6 @@
 package com.example.dto;
 
 import java.time.LocalDateTime;
-
 import com.example.bean.MemberBean;
 import com.example.bean.Place;
 import com.example.bean.Position;

@@ -72,6 +72,7 @@ public class MemberController {
 	 * @param model
 	 */
 	private void setDisplayNameMaps(Model model) {
+
 		model.addAttribute("positionMap", positionService.findAll().stream()
 				.collect(Collectors.toMap(Position::getPositionId, Position::getPositionName)));
 		model.addAttribute("placeMap",
