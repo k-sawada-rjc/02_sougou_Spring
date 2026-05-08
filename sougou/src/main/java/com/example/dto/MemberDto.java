@@ -2,9 +2,9 @@ package com.example.dto;
 
 import java.time.LocalDateTime;
 
-import com.example.bean.MemberBean;
-import com.example.bean.Place;
-import com.example.bean.Position;
+import com.example.entity.Member;
+import com.example.entity.Place;
+import com.example.entity.Position;
 import com.example.form.MemberForm;
 
 public class MemberDto {
@@ -179,18 +179,18 @@ public class MemberDto {
 	}
 
 	/**
-	 * 役職名を取得します。
+	 * 役職を取得します。
 	 *
-	 * @return 役職名
+	 * @return 役職
 	 */
 	public Position getPosition() {
 		return position;
 	}
 
 	/**
-	 * 役職名を設定します。
+	 * 役職を設定します。
 	 *
-	 * @param position 役職名
+	 * @param position 役職
 	 */
 	public void setPosition(Position position) {
 		this.position = position;
@@ -215,18 +215,18 @@ public class MemberDto {
 	}
 
 	/**
-	 * 事業所名を取得します。
+	 * 事業所を取得します。
 	 *
-	 * @return 事業所名
+	 * @return 事業所
 	 */
 	public Place getPlace() {
 		return place;
 	}
 
 	/**
-	 * 事業所名を設定します。
+	 * 事業所を設定します。
 	 *
-	 * @param place 事業所名
+	 * @param place 事業所
 	 */
 	public void setPlace(Place place) {
 		this.place = place;
@@ -261,14 +261,16 @@ public class MemberDto {
 		memberDto.setMail(memberForm.getMail());
 		memberDto.setTel(memberForm.getTel());
 		memberDto.setPositionId(memberForm.getPositionId());
+		memberDto.setPosition(memberForm.getPosition());
 		memberDto.setPlaceId(memberForm.getPlaceId());
+		memberDto.setPlace(memberForm.getPlace());
 		memberDto.setRegist(memberForm.getRegist());
 
 		return memberDto;
 
 	}
 
-	public static final MemberDto convertEntityToDto(MemberBean memberBean) {
+	public static final MemberDto convertEntityToDto(Member memberBean) {
 		MemberDto memberDto = new MemberDto();
 
 		memberDto.setMemberId(memberBean.getMemberId());
@@ -287,8 +289,8 @@ public class MemberDto {
 		return memberDto;
 	}
 
-	public static MemberBean convertDtoToEntity(MemberDto dto) {
-		MemberBean memberBean=new MemberBean();
+	public static Member convertDtoToEntity(MemberDto dto) {
+		Member memberBean = new Member();
 
 		memberBean.setMemberId(dto.getMemberId());
 		memberBean.setName(dto.getName());
@@ -302,7 +304,6 @@ public class MemberDto {
 		memberBean.setPlaceId(dto.getPlaceId());
 		memberBean.setPlace(dto.getPlace());
 		memberBean.setRegist(dto.getRegist());
-
 
 		return memberBean;
 	}
