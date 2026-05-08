@@ -9,8 +9,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
-import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.dto.MemberDto;
@@ -27,7 +25,6 @@ import jakarta.validation.Valid;
 /**
  * @author kazuki_sawada Controllerクラス
  */
-@SessionAttributes("member")
 @Controller
 public class MemberController {
 
@@ -52,12 +49,12 @@ public class MemberController {
 
 	@ModelAttribute("positions")
 	public List<Position> setPositions() {
-	    return positionService.findAll();
+		return positionService.findAll();
 	}
 
 	@ModelAttribute("places")
 	public List<Place> setPlaces() {
-	    return placeService.findAll();
+		return placeService.findAll();
 	}
 
 	/**
@@ -82,11 +79,19 @@ public class MemberController {
 	 */
 	@GetMapping("/insert")
 	public String insert(Model model) {
-		if (!model.containsAttribute("member")) {
-			MemberForm form = new MemberForm();
-			model.addAttribute("member", form);
-		}
+		model.addAttribute("member", new MemberForm());
+		return "html/insert";
+	}
 
+	/**
+	 * 新規登録機能 戻るボタン押下時
+	 *
+	 * @param form
+	 * @param model
+	 * @return
+	 */
+	@PostMapping("/insert")
+	public String insert(@ModelAttribute("member") MemberForm form, Model model) {
 		return "html/insert";
 	}
 
@@ -120,16 +125,15 @@ public class MemberController {
 	 * @return
 	 */
 	@PostMapping("/insertComp")
-	public String insertComp(@ModelAttribute("member") MemberForm form, RedirectAttributes redirAttrs,
-			SessionStatus sessionStatus) {
+	public String insertComp(@ModelAttribute("member") MemberForm form, RedirectAttributes redirAttrs) {
+
+		form.setPosition(positionService.findById(form.getPositionId()));
+		form.setPlace(placeService.findById(form.getPlaceId()));
 
 		MemberDto dto = MemberDto.convertFormToDto(form);
 		memberService.insert(dto);
 
-		// Sessionに保存されたデータを消去
-		sessionStatus.setComplete();
-
-		redirAttrs.addFlashAttribute("completedMember", form);
+		redirAttrs.addFlashAttribute("member", form);
 		return "redirect:/insertCompDone";
 	}
 

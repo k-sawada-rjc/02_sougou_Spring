@@ -34,7 +34,7 @@ public class MemberForm {
 	/** 性別 */
 	private Integer sex = 0;
 	/** mail */
-	@NotNull
+	@NotBlank
 	@Email
 	@Length(max = 254)
 	private String mail;
