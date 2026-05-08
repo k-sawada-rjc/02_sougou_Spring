@@ -10,6 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
+
 /**
  * Beanクラス
  *
@@ -45,20 +46,26 @@ public class Member {
 	/** 役職id */
 	@Column(name = "position_id")
 	private String positionId;
-	/** 役職名 */
+	/** 役職 */
 	@OneToOne
 	@JoinColumn(name = "position_id", insertable = false, updatable = false)
 	Position position;
 	/** 事業所id */
 	@Column(name = "place_id")
 	private String placeId;
-	/** 事業所名 */
+	/** 事業所 */
 	@OneToOne
 	@JoinColumn(name = "place_id", insertable = false, updatable = false)
 	Place place;
 	/** 登録日 */
-	@Column(name = "update_date")
+	@Column(name = "regist_date")
 	private LocalDateTime regist;
+	/** 更新日 */
+	@Column(name = "update_date")
+	private LocalDateTime update;
+	/** 削除フラグ */
+	@Column(name = "delete_flg")
+	private Integer deleteFlg;
 
 	/**
 	 * IDを取得します。
@@ -205,18 +212,18 @@ public class Member {
 	}
 
 	/**
-	 * 役職名を取得します。
+	 * 役職を取得します。
 	 *
-	 * @return 役職名
+	 * @return 役職
 	 */
 	public Position getPosition() {
 		return position;
 	}
 
 	/**
-	 * 役職名を設定します。
+	 * 役職を設定します。
 	 *
-	 * @param position 役職名
+	 * @param position 役職
 	 */
 	public void setPosition(Position position) {
 		this.position = position;
@@ -241,18 +248,18 @@ public class Member {
 	}
 
 	/**
-	 * 事業所名を取得します。
+	 * 事業所を取得します。
 	 *
-	 * @return 事業所名
+	 * @return 事業所
 	 */
 	public Place getPlace() {
 		return place;
 	}
 
 	/**
-	 * 事業所名を設定します。
+	 * 事業所を設定します。
 	 *
-	 * @param place 事業所名
+	 * @param place 事業所
 	 */
 	public void setPlace(Place place) {
 		this.place = place;
@@ -276,4 +283,39 @@ public class Member {
 		this.regist = regist;
 	}
 
+	/**
+	 * 更新日を取得します。
+	 *
+	 * @return 更新日
+	 */
+	public LocalDateTime getUpdate() {
+		return update;
+	}
+
+	/**
+	 * 更新日を設定します。
+	 *
+	 * @param regist 更新日
+	 */
+	public void setUpdate(LocalDateTime update) {
+		this.update = update;
+	}
+
+	/**
+	 * 削除フラグを取得します。
+	 *
+	 * @return
+	 */
+	public Integer getDeleteFlg() {
+		return deleteFlg;
+	}
+
+	/**
+	 * 削除フラグを設定します。
+	 *
+	 * @param deleteFlg
+	 */
+	public void setDeleteFlg(Integer deleteFlg) {
+		this.deleteFlg = deleteFlg;
+	}
 }

@@ -43,14 +43,18 @@ public class MemberForm {
 	private String tel;
 	/** 役職id */
 	private String positionId;
-	/** 役職名 */
+	/** 役職 */
 	private Position position;
 	/** 事業所id */
 	private String placeId;
-	/** 事業所名 */
+	/** 事業所 */
 	private Place place;
 	/** 登録日 */
 	private LocalDateTime regist;
+	/** 更新日 */
+	private LocalDateTime update;
+	/** 削除フラグ */
+	private Integer deleteFlg;
 
 	/**
 	 * IDを取得します。
@@ -266,5 +270,41 @@ public class MemberForm {
 	 */
 	public void setRegist(LocalDateTime regist) {
 		this.regist = regist;
+	}
+
+	/**
+	 * 更新日を取得します。
+	 *
+	 * @return 更新日
+	 */
+	public LocalDateTime getUpdate() {
+		return update;
+	}
+
+	/**
+	 * 更新日を設定します。
+	 *
+	 * @param regist 更新日
+	 */
+	public void setUpdate(LocalDateTime update) {
+		this.update = update;
+	}
+
+	/**
+	 * 削除フラグを取得します。
+	 *
+	 * @return
+	 */
+	public Integer getDeleteFlg() {
+		return deleteFlg;
+	}
+
+	/**
+	 * 削除フラグを設定します。
+	 *
+	 * @param deleteFlg
+	 */
+	public void setDeleteFlg(Integer deleteFlg) {
+		this.deleteFlg = deleteFlg;
 	}
 }
