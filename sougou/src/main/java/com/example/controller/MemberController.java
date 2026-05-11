@@ -151,8 +151,15 @@ public class MemberController {
 	 *
 	 * @return
 	 */
-	@PostMapping("/detail")
-	public String detail() {
+	@PostMapping("/detail/{id}")
+	public String detail(Model model, @PathVariable(value = "id") String id) {
+
+		Member member = memberService.findById(id);
+		MemberDto dto = MemberDto.convertEntityToDto(member);
+		MemberForm form = MemberDto.convertDtoToForm(dto);
+		memberService.setSelect(form);
+
+		model.addAttribute("member", form);
 		return "html/detail";
 	}
 
@@ -228,22 +235,45 @@ public class MemberController {
 	}
 
 	/**
-	 * 削除機能
+	 * 削除機能 初期表示
 	 *
 	 * @return
 	 */
-	@PostMapping("/delete")
-	public String delete() {
+	@PostMapping("/delete/{id}")
+	public String delete(Model model, @PathVariable(value = "id") String id) {
+
+		Member member = memberService.findById(id);
+		MemberDto dto = MemberDto.convertEntityToDto(member);
+		MemberForm form = MemberDto.convertDtoToForm(dto);
+		memberService.setSelect(form);
+
+		model.addAttribute("member", form);
 		return "html/delete";
 	}
 
-	@PostMapping("/deleteConf")
-	public String deleteConf() {
-		return "html/deleteConf";
+	/**
+	 * 削除機能 削除完了画面をリダイレクト
+	 *
+	 * @return
+	 */
+	@PostMapping("/deleteComp")
+	public String deleteComp(@ModelAttribute("member") MemberForm form, RedirectAttributes redirAttrs) {
+
+		memberService.setSelect(form);
+		MemberDto dto = MemberDto.convertFormToDto(form);
+		memberService.delete(dto);
+
+		redirAttrs.addFlashAttribute("member", form);
+		return "redirect:/deleteCompDone";
 	}
 
-	@PostMapping("/deleteComp")
-	public String deleteComp() {
+	/**
+	 * 削除機能 削除完了画面表示
+	 *
+	 * @return
+	 */
+	@GetMapping("/deleteCompDone")
+	public String deleteCompDone() {
 		return "html/deleteComp";
 	}
 }

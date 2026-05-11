@@ -5,13 +5,13 @@
 	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" th:href="@{/css/common.css}">
 		<title>list</title>
 	</head>
 	<body>
 		<div id="wapper">
 			<div class="menu">
-				<a href="../">メニュー</a><br>
+				<a th:href="@{/}">メニュー</a><br>
 			</div>
 			<div class="menu">
 				<h2>メンバ一覧画面</h2>
@@ -42,7 +42,7 @@
 					<td th:text="*{position?.positionName}"></td>
 					<td th:text="*{place?.placeName}"></td>
 					<td>
-						<form th:action="@{/detail}" method="post">
+						<form th:action="@{/detail/{id}(id=*{memberId})}" method="post">
 							<input type="submit" value="詳細">
 						</form>
 					</td>
@@ -52,7 +52,7 @@
 						</form>
 					</td>
 					<td>
-						<form th:action="@{/delete}" method="post">
+						<form th:action="@{/delete/{id}(id=*{memberId})}" method="post">
 							<input type="submit" value="削除">
 						</form>
 					</td>
