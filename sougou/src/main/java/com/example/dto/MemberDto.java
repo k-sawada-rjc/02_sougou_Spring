@@ -33,6 +33,10 @@ public class MemberDto {
 	Place place;
 	/** 登録日 */
 	private LocalDateTime regist;
+	/** 更新日 */
+	private LocalDateTime update;
+	/** 削除フラグ */
+	private Integer deleteFlg;
 
 	/**
 	 * IDを取得します。
@@ -250,6 +254,63 @@ public class MemberDto {
 		this.regist = regist;
 	}
 
+	/**
+	 * 更新日を取得します。
+	 *
+	 * @return 更新日
+	 */
+	public LocalDateTime getUpdate() {
+		return update;
+	}
+
+	/**
+	 * 更新日を設定します。
+	 *
+	 * @param regist 更新日
+	 */
+	public void setUpdate(LocalDateTime update) {
+		this.update = update;
+	}
+
+	/**
+	 * 削除フラグを取得します。
+	 *
+	 * @return
+	 */
+	public Integer getDeleteFlg() {
+		return deleteFlg;
+	}
+
+	/**
+	 * 削除フラグを設定します。
+	 *
+	 * @param deleteFlg
+	 */
+	public void setDeleteFlg(Integer deleteFlg) {
+		this.deleteFlg = deleteFlg;
+	}
+
+	public static final MemberForm convertDtoToForm(MemberDto memberDto) {
+		MemberForm memberForm=new MemberForm();
+
+		memberForm.setMemberId(memberDto.getMemberId());
+		memberForm.setName(memberDto.getName());
+		memberForm.setAge(memberDto.getAge());
+		memberForm.setAddress(memberDto.getAddress());
+		memberForm.setSex(memberDto.getSex());
+		memberForm.setMail(memberDto.getMail());
+		memberForm.setTel(memberDto.getTel());
+		memberForm.setPositionId(memberDto.getPositionId());
+		memberForm.setPosition(memberDto.getPosition());
+		memberForm.setPlaceId(memberDto.getPlaceId());
+		memberForm.setPlace(memberDto.getPlace());
+		memberForm.setRegist(memberDto.getRegist());
+		memberForm.setUpdate(memberDto.getUpdate());
+		memberForm.setDeleteFlg(memberDto.getDeleteFlg());
+
+		return memberForm;
+	}
+
 	public static final MemberDto convertFormToDto(MemberForm memberForm) {
 		MemberDto memberDto = new MemberDto();
 
@@ -265,46 +326,52 @@ public class MemberDto {
 		memberDto.setPlaceId(memberForm.getPlaceId());
 		memberDto.setPlace(memberForm.getPlace());
 		memberDto.setRegist(memberForm.getRegist());
+		memberDto.setUpdate(memberForm.getUpdate());
+		memberDto.setDeleteFlg(memberForm.getDeleteFlg());
 
 		return memberDto;
 
 	}
 
-	public static final MemberDto convertEntityToDto(Member memberBean) {
+	public static final MemberDto convertEntityToDto(Member member) {
 		MemberDto memberDto = new MemberDto();
 
-		memberDto.setMemberId(memberBean.getMemberId());
-		memberDto.setName(memberBean.getName());
-		memberDto.setAge(memberBean.getAge());
-		memberDto.setAddress(memberBean.getAddress());
-		memberDto.setSex(memberBean.getSex());
-		memberDto.setMail(memberBean.getMail());
-		memberDto.setTel(memberBean.getTel());
-		memberDto.setPositionId(memberBean.getPositionId());
-		memberDto.setPosition(memberBean.getPosition());
-		memberDto.setPlaceId(memberBean.getPlaceId());
-		memberDto.setPlace(memberBean.getPlace());
-		memberDto.setRegist(memberBean.getRegist());
+		memberDto.setMemberId(member.getMemberId());
+		memberDto.setName(member.getName());
+		memberDto.setAge(member.getAge());
+		memberDto.setAddress(member.getAddress());
+		memberDto.setSex(member.getSex());
+		memberDto.setMail(member.getMail());
+		memberDto.setTel(member.getTel());
+		memberDto.setPositionId(member.getPositionId());
+		memberDto.setPosition(member.getPosition());
+		memberDto.setPlaceId(member.getPlaceId());
+		memberDto.setPlace(member.getPlace());
+		memberDto.setRegist(member.getRegist());
+		memberDto.setUpdate(member.getUpdate());
+		memberDto.setDeleteFlg(member.getDeleteFlg());
 
 		return memberDto;
 	}
 
-	public static Member convertDtoToEntity(MemberDto dto) {
-		Member memberBean = new Member();
+	public static Member convertDtoToEntity(MemberDto memberDto) {
+		Member member = new Member();
 
-		memberBean.setMemberId(dto.getMemberId());
-		memberBean.setName(dto.getName());
-		memberBean.setAge(dto.getAge());
-		memberBean.setAddress(dto.getAddress());
-		memberBean.setSex(dto.getSex());
-		memberBean.setMail(dto.getMail());
-		memberBean.setTel(dto.getTel());
-		memberBean.setPositionId(dto.getPositionId());
-		memberBean.setPosition(dto.getPosition());
-		memberBean.setPlaceId(dto.getPlaceId());
-		memberBean.setPlace(dto.getPlace());
-		memberBean.setRegist(dto.getRegist());
+		member.setMemberId(memberDto.getMemberId());
+		member.setName(memberDto.getName());
+		member.setAge(memberDto.getAge());
+		member.setAddress(memberDto.getAddress());
+		member.setSex(memberDto.getSex());
+		member.setMail(memberDto.getMail());
+		member.setTel(memberDto.getTel());
+		member.setPositionId(memberDto.getPositionId());
+		member.setPosition(memberDto.getPosition());
+		member.setPlaceId(memberDto.getPlaceId());
+		member.setPlace(memberDto.getPlace());
+		member.setRegist(memberDto.getRegist());
+		member.setUpdate(memberDto.getUpdate());
+		member.setDeleteFlg(memberDto.getDeleteFlg());
 
-		return memberBean;
+		return member;
 	}
 }

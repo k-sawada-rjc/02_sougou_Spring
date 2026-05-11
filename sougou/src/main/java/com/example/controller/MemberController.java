@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
@@ -110,9 +111,7 @@ public class MemberController {
 			return "html/insert";
 		}
 
-		form.setPosition(positionService.findById(form.getPositionId()));
-		form.setPlace(placeService.findById(form.getPlaceId()));
-
+		form = memberService.setSelect(form);
 		return "html/insertConf";
 	}
 
@@ -127,8 +126,7 @@ public class MemberController {
 	@PostMapping("/insertComp")
 	public String insertComp(@ModelAttribute("member") MemberForm form, RedirectAttributes redirAttrs) {
 
-		form.setPosition(positionService.findById(form.getPositionId()));
-		form.setPlace(placeService.findById(form.getPlaceId()));
+		form = memberService.setSelect(form);
 
 		MemberDto dto = MemberDto.convertFormToDto(form);
 		memberService.insert(dto);
@@ -159,22 +157,73 @@ public class MemberController {
 	}
 
 	/**
-	 * 更新機能
+	 * 更新機能 初期表示
 	 *
 	 * @return
 	 */
-	@PostMapping("/update")
-	public String update() {
+	@PostMapping("/update/{id}")
+	public String update(Model model, @PathVariable(value = "id") String id) {
+
+		MemberDto dto = MemberDto.convertEntityToDto(memberService.findById(id));
+		model.addAttribute("member", MemberDto.convertDtoToForm(dto));
+
 		return "html/update";
 	}
 
+	/**
+	 * 更新機能 戻るボタン押下時
+	 *
+	 * @param form
+	 * @return
+	 */
+	@PostMapping("/update")
+	public String update(@ModelAttribute("member") MemberForm form) {
+		return "html/update";
+	}
+
+	/**
+	 * 更新機能 確認画面表示
+	 *
+	 * @param form
+	 * @param result
+	 * @param model
+	 * @return
+	 */
 	@PostMapping("/updateConf")
-	public String updateConf() {
+	public String updateConf(@Valid @ModelAttribute("member") MemberForm form, BindingResult result, Model model) {
+
+		if (result.hasErrors()) {
+			return "html/update";
+		}
+
+		form = memberService.setSelect(form);
 		return "html/updateConf";
 	}
 
+	/**
+	 * 更新機能 更新完了画面をリダイレクト
+	 *
+	 * @return
+	 */
 	@PostMapping("/updateComp")
-	public String updateComp() {
+	public String updateComp(@ModelAttribute("member") MemberForm form, RedirectAttributes redirAttrs) {
+
+		form = memberService.setSelect(form);
+
+		MemberDto dto = MemberDto.convertFormToDto(form);
+		memberService.update(dto);
+
+		redirAttrs.addFlashAttribute("member", form);
+		return "redirect:/updateCompDone";
+	}
+
+	/**
+	 * 更新機能 更新完了画面表示
+	 *
+	 * @return
+	 */
+	@GetMapping("/updateCompDone")
+	public String updateCompDone() {
 		return "html/updateComp";
 	}
 
