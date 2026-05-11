@@ -71,6 +71,17 @@ public class MemberService {
 	}
 
 	/**
+	 * 削除機能
+	 * @param dto
+	 */
+	public void delete(MemberDto dto) {
+
+		Member member= MemberDto.convertDtoToEntity(dto);
+		member.setDeleteFlg(1);
+		memberRepository.save(member);
+	}
+
+	/**
 	 * formに役職と事業所をセット
 	 *
 	 * @param form
